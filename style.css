@@ -69,13 +69,22 @@ body {
     margin:2em 6em
 }
 
-.container__imagem{
-    width: 80%;
+.container__descricao{
+    padding: 2em;
 }
 
 .secundario{
     align-items: center;
     margin: 0 10em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
 }
 
 .descricao__titulo{
@@ -89,11 +98,3 @@ body {
     color: var(--cor-secundaria);
 }
 
-.secundario__botao{
-    display: inline-block;
-    margin-top: 1em;
-}
-
-.container__descricao{
-    padding: 2em;
-}
